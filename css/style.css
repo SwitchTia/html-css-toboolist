@@ -50,10 +50,6 @@ body {
   margin-bottom: 20px;
 }
 
-.mb-30 {
-  margin-bottom: 30px;
-}
-
 .container{
     max-width: 600px;
     margin: auto;
@@ -105,8 +101,45 @@ ul{
     list-style: none;
 }
 
-.section-line{
+/* .section-line{
     padding: 10px 0px;
     border-bottom: 1px solid rgb(231, 226, 226); 
 
+} */
+
+.button{
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10%;
+  text-align:  center ;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.bg-blue{
+  background-color: cornflowerblue;
+}
+
+.bg-purple{
+  background-color: rgb(138, 92, 229);
+}
+
+.bg-green{
+  background-color: rgb(100, 237, 175);
+}
+
+.bg-orange{
+  background-color: rgb(228, 155, 112);
+}
+
+.bg-red{
+  background-color: rgb(236, 77, 114);
+}
+
+.bg-kaki{
+  background-color: rgb(103, 133, 84);
 }
