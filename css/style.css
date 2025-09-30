@@ -39,7 +39,6 @@ header{
 body {
   font-family: sans-serif;
   background-color: rgb(240, 237, 235);
-  padding: 40px;
 }
 
 .mb-10 {
@@ -112,7 +111,7 @@ ul{
   width: 60px;
   height: 20px;
   line-height: 20px;
-  border-radius: 10%;
+  border-radius: 20%;
   text-align:  center ;
   vertical-align: middle;
   margin-bottom: 10px;
