@@ -19,6 +19,7 @@ header{
   vertical-align: middle;
   padding-left: 20px;
   padding-top: 10px;
+  vertical-align: middle;
   
 }
 
@@ -27,6 +28,7 @@ header{
   font-size: 30px;
   font-weight: bolder;
   padding-top: 20px;
+  vertical-align: middle;
 }
 
 body {
@@ -50,22 +52,51 @@ body {
     width: 80%;
     margin: auto;
     background-color: white;
+    padding-top: 60px;
 }
 
-.round-shaped-rectangle {
+.button-add-task {
   display: inline-block;
-  background-color: orange;
-  width: 60px;
+  background-color: rgb(85, 170, 220);
+  width: 70px;
   height: 30px;
-  line-height: 50px;
-  border-radius: 20%;
+  line-height: 30px;
+  border-radius: 10%;
   text-align:  center ;
+  vertical-align: middle;
+  border: 1px solid rgb(63, 100, 221);
+}
+
+.button-text1{
+    color: white;
+    text-align: center;
+    font-size: smaller;
+}
+
+.button-add-section {
+  display: inline-block;
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10%;
+  text-align:  center ;
+  vertical-align: middle;
+  border: 1px solid grey;
+}
+
+.button-text2{
+    color: grey;
+    text-align: center;
+    font-size: smaller;
 }
 
 ul{
     list-style: none;
 }
 
-.button-text{
-    font-size: smaller;
+.section-line{
+    padding: 10px 0px;
+    border-bottom: 1px solid white; 
+
 }
