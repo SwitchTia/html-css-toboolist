@@ -8,8 +8,45 @@
     padding: 0;
 }
 
+header{
+    height: 60px;
+    background-color: rgb(206, 211, 221);
+    background-size: 250px;
+}
+
+#logo {
+  height: 50px;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-top: 10px;
+  
+}
+
+.logo-text {
+  vertical-align: middle;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(204, 202, 201);
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
 }
