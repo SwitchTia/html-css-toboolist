@@ -15,6 +15,10 @@ header{
     margin-bottom: 50px;
 }
 
+/* .separator{
+    margin-bottom: 3px solid rgb(116, 114, 114);
+} */
+
 #logo {
   height: 50px;
   vertical-align: middle;
@@ -34,7 +38,20 @@ header{
 
 body {
   font-family: sans-serif;
-  background-color: rgb(204, 202, 201);
+  background-color: rgb(240, 237, 235);
+  padding: 40px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 .container{
@@ -90,6 +107,6 @@ ul{
 
 .section-line{
     padding: 10px 0px;
-    border-bottom: 1px solid white; 
+    border-bottom: 1px solid rgb(231, 226, 226); 
 
 }
