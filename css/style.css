@@ -50,7 +50,8 @@ body {
 }
 
 .container{
-    max-width: 600px;
+    width: 70%;
+    max-width: 800px;
     margin: auto;
     background-color: white;
     padding: 20px 30px;
@@ -64,7 +65,7 @@ body {
   width: 70px;
   height: 30px;
   line-height: 30px;
-  border-radius: 10%;
+  border-radius: 20px;
   text-align:  center ;
   vertical-align: middle;
   border: 1px solid rgb(63, 100, 221);
@@ -83,7 +84,7 @@ body {
   width: 80px;
   height: 30px;
   line-height: 30px;
-  border-radius: 10%;
+  border-radius: 20px;
   text-align:  center ;
   vertical-align: middle;
   border: 1px solid grey;
@@ -111,12 +112,11 @@ ul{
   width: 60px;
   height: 20px;
   line-height: 20px;
-  border-radius: 20%;
+  border-radius: 20px;
   text-align:  center ;
   vertical-align: middle;
   margin-bottom: 10px;
   font-size: 12px;
-  color: #fff;
 }
 
 .bg-blue{
@@ -141,4 +141,24 @@ ul{
 
 .bg-kaki{
   background-color: rgb(103, 133, 84);
+}
+
+.circle{
+  display:inline-block;
+  border: 1px solid grey;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.circle-check{
+  border-color: green;
+  color: green;
+}
+
+.circle-cross{
+  border-color: red;
+  color: red;
 }
